@@ -1,0 +1,116 @@
+.layer-switcher {
+    position: absolute;
+    top: 1em;
+    right: 0.5em;
+    text-align: left;
+	overflow: auto;
+}
+
+.layer-switcher .panel {
+    padding-right: 50px;
+    margin: 0;
+    display: none;
+}
+
+.layer-switcher.shown .panel {
+    display: block;
+}
+
+.layer-switcher.shown {
+	height: 230px;
+}
+
+.panel{
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+
+.layer-switcher button {
+	position: static;
+    float: right;
+    width: 60px;
+    height: 20px;
+    background-image: url('/img/legenda.png')/*logo.png*/;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-color: #DCDCDC;
+    border: none;
+}
+
+.layer-switcher button:focus, .layer-switcher button:hover {
+    background-color: white;
+}
+
+.layer-switcher ul {
+    padding-left: 1.4em;
+    list-style: none;
+}
+
+.layer-switcher ul.li {
+    size: 5px;
+}
+
+.layer-switcher li.Ubytki-nawierzchni_1 {
+	list-style-image: url('/img/droga_maly.png');
+}
+
+.layer-switcher li.Zdewastowane-mienie_2 {
+	list-style-image: url('/img/wandalizm_maly.png');
+}
+
+.layer-switcher li.Włamanie_0 {
+	list-style-image: url('/img/kradziez_maly.png');
+}
+
+.layer-switcher li.Agresywny-pies_3 {
+	list-style-image: url('/img/psy_maly.png');
+}
+
+.layer-switcher li.Bójka_4 {
+	list-style-image: url('/img/bojka_maly.png');
+}
+
+.layer-switcher li.Inne_5 {
+	list-style-image: url('/img/inne_maly.png');
+}
+
+.layer-switcher li.Budynki_0 {
+	padding-bottom: 60px;
+	background: url('/img/bud_gr.png');
+	width: 165px;
+}
+
+.layer-switcher li.Drogi_1 {
+	list-style-image: url('/img/drogi_symbol.png');
+}
+
+.layer-switcher li.Rzeki_2 {
+	list-style-image: url('/img/rzeka_symbol.png');
+}
+
+.layer-switcher li.Zieleń_3 {
+	list-style-image: url('/img/zielen_symbol.png');
+}
+
+.layer-switcher li.Obręby_4 {
+	list-style-image: url('/img/obreby_symbol.png');
+}
+
+/*tytuły grup napisów*/
+.layer-switcher li.group {
+    padding-top: 2px;
+	font-size: 10;
+}
+
+/*tytuły grup warstw*/
+.layer-switcher li.group > label {
+    font-weight: bold;
+}
+
+.layer-switcher input {
+    margin: 1px 2px ;
+}
+
+.layer-switcher label {
+    margin-left: 3px;
+}

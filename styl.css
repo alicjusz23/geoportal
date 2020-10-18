@@ -1,0 +1,134 @@
+/*resrt*/
+
+ul, ol, dl{
+	padding:0;
+	margin: 0;
+	list-style-type: none;
+}
+ a:hover {
+    color:	white;
+}
+h2, h3, h4, h5, h6, p{
+	margin:0;
+	font-size: 1em;
+}
+
+a img{
+	border: none;
+}
+
+body{ 
+	background-color:#DCDCDC !important;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+header{
+	height: 90px;
+}
+header h1{ 
+	background:rgba(76,131,101,1) url(tlo/tlox.png) no-repeat center; 
+	background-size: 100% 100%;
+	margin-left:10px;
+	margin-right:10px;
+	height:80px;
+}
+#menu { 
+	background: url(tlo/tlo3.png) center no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	margin-left:10px;
+	width:25%; 
+	float:left;
+	text-align: center;
+	height:80%;
+	overflow: auto;
+}
+#menu2 { 
+	text-align: center;
+	padding: 3px;
+	color: white;
+}
+#tip { 
+	position: absolute; 
+	bottom: 0%; 
+	margin-left: 5px;
+}
+
+#zgloszenie{ 
+	position:relative; 
+	color: black;
+}
+#map{ 
+	position:absolute; 
+	right: 0;
+	width: 72%;
+	float: right; 
+	height: 80%; 
+	border-style: solid;
+	margin-right: 10px;
+}
+#mouse-position{ 
+	position: relative;
+	width: 100%;
+	height:40%; 
+	color: white;
+}
+.ol-mouse-position{ 
+	position: relative;
+	width: 100%;
+	height:20%; 
+	color: white;
+}
+#zgloszenie{
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #c0a264; /*zloty*/
+	color: #4b473d ;			/*ciemny zloty*/
+}
+	
+.popover {
+	width: 200px;
+}
+
+#autor{
+	background: url(tlo/tlo4.png) center no-repeat;
+	background-size: 100% 100%;
+	color: white;
+	text-align: center;
+	padding:80px;
+	margin-left:	10px;
+	margin-right:	10px;
+	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+}
+
+#formularz{
+	background: url(tlo/tlo4.png) center no-repeat;
+	background-size: 100% 100%;
+	margin-left:	10px;
+	margin-right:	10px;
+	color: white;
+	font-size:small;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-top:60px;
+	padding-bottom: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+textarea{
+	resize: none;
+}
+
+footer{ 
+	position:relative;
+	float: center;
+	text-align: center;
+	font-weight: bold;
+	padding: 3px;
+	color: white;
+	bottom: 3%;
+}
+#oautorze{
+	color:	white;
+	text-decoration: underline;
+}
